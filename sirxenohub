@@ -143,6 +143,9 @@ page1.TextColor3 = Color3.fromRGB(170, 255, 255)
 page1.TextSize = 14.000
 page1.MouseButton1Down:connect(function()
 Page1frame.Visible = true
+Page2frame.Visible = false
+Page3frame.Visible = false
+Page4frame.Visible = false
 end)
 
 page2.Name = "page2"
@@ -157,6 +160,8 @@ page2.TextSize = 14.000
 page2.MouseButton1Down:connect(function()
 Page2frame.Visible = true
 Page1frame.Visible = false
+Page3frame.Visible = false
+Page4frame.Visible = false
 end)
 
 page3.Name = "page3"
@@ -171,6 +176,8 @@ page3.TextSize = 14.000
 page3.MouseButton1Down:connect(function()
 Page3frame.Visible = true
 Page2frame.Visible = false
+Page1frame.Visible = false
+Page4frame.Visible = false
 end)
 
 
@@ -186,6 +193,8 @@ Page4.TextSize = 14.000
 Page4.MouseButton1Down:connect(function()
 Page4frame.Visible = true
 Page3frame.Visible = false
+Page1frame.Visible = false
+Page2frame.Visible = false
 end)
 
 
